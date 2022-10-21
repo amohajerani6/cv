@@ -1,0 +1,37 @@
+/* Applies to the entire body of the HTML document (except where overridden by more specific
+selectors). */
+body {
+  margin: 25px;
+  background-color: #c8faec;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+}
+
+/* Applies to all <h1>...</h1> elements. */
+h1 {
+  font-size: 35px;
+  font-weight: normal;
+  margin-top: 5px;
+  color:#6E7B8B;
+}
+
+img {
+  border-radius: 50% / 50%;
+}
+
+hr {
+  border-top: 1px solid grey;
+  border-style: none;
+  border-top-style: dotted;
+  width: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: thick;
+
+}
+
+/* Applies to all elements with <... class="someclass"> specified.*/
+.resume_section { color:#6E7B8B }
+
+/* Applies to the element with <... id="someid"> specified. */
+/*#someid { color: green; }*/
